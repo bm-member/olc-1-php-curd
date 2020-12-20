@@ -1,6 +1,6 @@
 <?php 
 
-require_once './init.php';
+require_once '../core/init.php';
 
 $id = $_GET['id'] ?? '';
 if($id === '') {
@@ -11,7 +11,7 @@ $result = mysqli_query($conn, $sql);
 $post = mysqli_fetch_assoc($result);
 
 ?>
-<?php include './header.php'; ?>
+<?php include APP_PATH . '/layouts/header.php'; ?>
 
 <div class="container mt-5">
     <div class="row">
@@ -44,4 +44,4 @@ $post = mysqli_fetch_assoc($result);
     </div>
 </div>
 
-<?php include './footer.php'; ?>
+<?php include  APP_PATH . '/layouts/footer.php'; ?>

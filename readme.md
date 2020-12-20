@@ -5,3 +5,4 @@
 
 ## Todo
 - user CRUD
+- login, logout, register

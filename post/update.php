@@ -1,6 +1,6 @@
 <?php
 
-require_once './init.php';
+require_once '../core/init.php';
 
 $id = $_POST['id'] ?? '';
 $title = $_POST['title'] ?? '';

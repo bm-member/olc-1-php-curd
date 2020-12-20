@@ -1,6 +1,6 @@
-<?php include 'init.php' ?>
+<?php require_once '../core/init.php'; ?>
 
-<?php include './header.php';?>
+<?php include  APP_PATH . '/layouts/header.php';?>
 
 <div class="container mt-5">
     <div class="row">
@@ -39,4 +39,4 @@
     </div>
 </div>
 
-<?php include './footer.php';?>
+<?php include  APP_PATH . '/layouts/footer.php';?>

@@ -29,3 +29,18 @@ function session_has($key)
 {
     return isset($_SESSION[$key]);
 }
+
+function url($url) {
+    return APP_URL . $url;
+}
+
+/**
+ * checking user is auth or not.
+ *
+ * @return boolean
+ */
+function auth() {
+    return true;
+    // return isset($_SESSION['auth']);
+}
+
